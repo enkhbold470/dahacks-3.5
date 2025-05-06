@@ -101,7 +101,7 @@ const Footer = () => {
         
         <div className="mt-12 pt-8 border-t border-neon-green/20 text-center">
           <p className="text-gray-400 font-mono text-sm">
-            &copy; {new Date().getFullYear()} Deanza Hackathon. All rights reserved. <Link to="https://deanzahacks.com/privacy-policy" className="text-neon-green hover:text-neon-blue transition-colors">Privacy Policy</Link> / <Link to="https://github.com/da-hacks/legal/blob/main/code_of_conduct.md" className="text-neon-green hover:text-neon-blue transition-colors">Code of Conduct</Link>
+            &copy; {new Date().getFullYear()} Deanza Hackathon. All rights reserved. <Link to="https://github.com/da-hacks/legal/blob/main/privacy.md" className="text-neon-green hover:text-neon-blue transition-colors">Privacy Policy</Link> / <Link to="https://github.com/da-hacks/legal/blob/main/code_of_conduct.md" className="text-neon-green hover:text-neon-blue transition-colors">Code of Conduct</Link>
           </p>
         </div>
       </div>
