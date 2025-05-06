@@ -10,6 +10,7 @@ import SponsorsPage from "./pages/SponsorsPage";
 import TeamPage from "./pages/TeamPage";
 import FAQPage from "./pages/FAQPage";
 import NotFound from "./pages/NotFound";
+import TimelinePage from "./pages/Timeline";
 
 const queryClient = new QueryClient();
 
@@ -25,6 +26,7 @@ const App = () => (
           <Route path="/sponsors" element={<SponsorsPage />} />
           <Route path="/team" element={<TeamPage />} />
           <Route path="/faq" element={<FAQPage />} />
+          <Route path="/timeline" element={<TimelinePage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
