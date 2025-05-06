@@ -216,9 +216,8 @@ export const hackathonData = {
   
   contact: {
     email: "logistics@deanzahacks.com",
-    twitter: "#",
     instagram: "https://www.instagram.com/deanzahacks",
-    discord: "https://discord.gg/QKjafEB2z5"
+    discord: "https://discord.gg/bJWTS7qem6"
   }
 };
 
