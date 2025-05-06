@@ -10,7 +10,7 @@ const Team = () => {
             MEET THE TEAM
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto font-mono">
-            The dedicated individuals who make Hackathon Horizon possible
+            The dedicated individuals who make Deanza Hackathon possible
           </p>
         </div>
         

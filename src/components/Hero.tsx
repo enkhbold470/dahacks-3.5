@@ -21,7 +21,7 @@ const Hero = () => {
   ];
 
   return (
-    <div className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden pt-16 cyber-grid">
+    <div id="hero" className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden pt-16 cyber-grid">
       {/* Parallax Background Elements */}
       {puzzlePieces.map((piece, index) => (
         <div 
@@ -49,8 +49,8 @@ const Hero = () => {
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-8xl font-cyber font-bold mb-4 tracking-wider">
-            <span className="block neon-text-pink animate-glow">HACKATHON</span>
-            <span className="block neon-text animate-glow">HORIZON 3.5</span>
+            <span className="block neon-text-pink animate-glow">DAHACKS</span>
+            <span className="block neon-text animate-glow">3.5</span>
           </h1>
           
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 text-gray-300 font-mono">

@@ -1,11 +1,35 @@
-
 import { Link } from 'react-router-dom';
 import hackathonData from '@/data/data';
+import { navbarData, resourceLinks } from '@/data/data';
 
 const Footer = () => {
   return (
-    <footer className="bg-cyber-darker py-12 relative overflow-hidden">
+    <footer id="footer" className="bg-cyber-darker py-12 relative overflow-hidden">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Resource Links Section */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+          {resourceLinks.map((group, index) => (
+            <div key={index} className="mb-6">
+              <h3 className="text-xl font-cyber font-semibold mb-4 text-white">{group.title}</h3>
+              <div className="flex flex-col gap-2">
+                {group.links.map((link, linkIndex) => (
+                  <a 
+                    key={linkIndex} 
+                    href={link.href} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-gray-300 text-sm hover:text-neon-green transition-colors truncate"
+                  >
+                    {link.name}
+                  </a>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div className="border-t border-neon-green/20 pt-12 mb-8"></div>
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Hackathon Info */}
           <div className="text-center md:text-left">
@@ -42,23 +66,15 @@ const Footer = () => {
           {/* Quick Links */}
           <div className="text-center">
             <h3 className="text-xl font-cyber font-semibold mb-4 text-white">Quick Links</h3>
-            <ul className="space-y-2 font-mono">
-              <li>
-                <Link to="/" className="text-gray-300 hover:text-neon-green transition-colors">Home</Link>
-              </li>
-              <li>
-                <Link to="/about" className="text-gray-300 hover:text-neon-pink transition-colors">About</Link>
-              </li>
-              <li>
-                <Link to="/sponsors" className="text-gray-300 hover:text-neon-blue transition-colors">Sponsors</Link>
-              </li>
-              <li>
-                <Link to="/team" className="text-gray-300 hover:text-neon-purple transition-colors">Team</Link>
-              </li>
-              <li>
-                <Link to="/faq" className="text-gray-300 hover:text-neon-yellow transition-colors">FAQs</Link>
-              </li>
-            </ul>
+            
+            <div className="flex flex-col gap-2">
+            {navbarData.links.map((link, index) => (
+              <Link key={index} to={link.href} className="text-gray-300 hover:text-neon-green transition-colors">
+                {link.name}
+              </Link>
+            ))}
+            </div>
+
           </div>
           
           {/* Contact */}
@@ -85,7 +101,7 @@ const Footer = () => {
         
         <div className="mt-12 pt-8 border-t border-neon-green/20 text-center">
           <p className="text-gray-400 font-mono text-sm">
-            &copy; {new Date().getFullYear()} Hackathon Horizon. All rights reserved.
+            &copy; {new Date().getFullYear()} Deanza Hackathon. All rights reserved. <Link to="https://deanzahacks.com/privacy-policy" className="text-neon-green hover:text-neon-blue transition-colors">Privacy Policy</Link> / <Link to="https://github.com/da-hacks/legal/blob/main/code_of_conduct.md" className="text-neon-green hover:text-neon-blue transition-colors">Code of Conduct</Link>
           </p>
         </div>
       </div>
