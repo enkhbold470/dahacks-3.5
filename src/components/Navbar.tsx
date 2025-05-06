@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import hackathonData from '@/data/data';
+import hackathonData, { navbarData } from '@/data/data';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -21,11 +21,11 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-cyber-darker/90 backdrop-blur-md shadow-lg' : 'bg-transparent'}`}>
+    <nav id="navbar" className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-cyber-darker/90 backdrop-blur-md shadow-lg' : 'bg-transparent'}`}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <Link to="/" className="flex items-center">
+            <Link to="/#" className="flex items-center">
               <span className="text-xl font-cyber font-bold neon-text animate-glow tracking-wider">{hackathonData.shortName}</span>
             </Link>
           </div>
@@ -33,11 +33,11 @@ const Navbar = () => {
           {/* Desktop Menu */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-center space-x-8">
-              <Link to="/" className="font-cyber text-white hover:text-neon-green transition-colors">HOME</Link>
-              <Link to="/about" className="font-cyber text-white hover:text-neon-pink transition-colors">ABOUT</Link>
-              <Link to="/sponsors" className="font-cyber text-white hover:text-neon-blue transition-colors">SPONSORS</Link>
-              <Link to="/team" className="font-cyber text-white hover:text-neon-purple transition-colors">TEAM</Link>
-              <Link to="/faq" className="font-cyber text-white hover:text-neon-yellow transition-colors">FAQs</Link>
+              {navbarData.links.map((link, index) => (
+                <Link key={index} to={link.href} className="font-cyber text-white hover:text-neon-green transition-colors">
+                  {link.name}
+                </Link>
+              ))}
               <a href={hackathonData.applyLink} target="_blank" rel="noopener noreferrer" 
                  className="neon-button-pink font-cyber">
                 APPLY
@@ -67,11 +67,11 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="md:hidden bg-cyber-darker/90 backdrop-blur-md border-t border-neon-green/30">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <Link to="/" className="block px-3 py-2 text-center font-cyber text-white hover:text-neon-green transition-colors">HOME</Link>
-            <Link to="/about" className="block px-3 py-2 text-center font-cyber text-white hover:text-neon-pink transition-colors">ABOUT</Link>
-            <Link to="/sponsors" className="block px-3 py-2 text-center font-cyber text-white hover:text-neon-blue transition-colors">SPONSORS</Link>
-            <Link to="/team" className="block px-3 py-2 text-center font-cyber text-white hover:text-neon-purple transition-colors">TEAM</Link>
-            <Link to="/faq" className="block px-3 py-2 text-center font-cyber text-white hover:text-neon-yellow transition-colors">FAQs</Link>
+            {navbarData.links.map((link, index) => (
+              <Link key={index} to={link.href} className="block mx-auto w-max font-cyber text-white hover:text-neon-green transition-colors">
+                {link.name}
+              </Link>
+            ))}
             <div className="pt-2 pb-1">
               <a href={hackathonData.applyLink} target="_blank" rel="noopener noreferrer" 
                  className="block mx-auto w-max neon-button-pink font-cyber">

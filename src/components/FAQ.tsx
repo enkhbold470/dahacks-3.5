@@ -17,7 +17,7 @@ const FAQ = () => {
             FREQUENTLY ASKED QUESTIONS
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto font-mono">
-            Everything you need to know about Hackathon Horizon
+            Everything you need to know about Deanza Hackathon
           </p>
         </div>
         

@@ -7,7 +7,7 @@ const About = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-cyber font-bold mb-4 neon-text-blue animate-glow">
-            WHAT IS HACKATHON HORIZON?
+            ABOUT DEANZA HACKS
           </h2>
         </div>
         
@@ -17,7 +17,7 @@ const About = () => {
               {hackathonData.description}
             </p>
             <p className="text-lg text-gray-300 mb-6 font-mono leading-relaxed">
-              Join us for an unforgettable day of innovation, collaboration, and skill-building. Whether you're a seasoned developer or just starting out, Hackathon Horizon offers a supportive environment to challenge yourself, meet like-minded individuals, and create something amazing.
+              Join us for an unforgettable day of innovation, collaboration, and skill-building. Whether you're a seasoned developer or just starting out, De Anza Hacks offers a supportive environment to challenge yourself, meet like-minded individuals, and create something amazing.
             </p>
             <div className="flex flex-wrap gap-4 mb-8">
               <div className="flex items-center">
@@ -51,7 +51,8 @@ const About = () => {
             <div className="aspect-video bg-cyber-darker rounded-lg overflow-hidden border neon-border relative z-10">
               {/* Replace this with an actual image if available */}
               <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-6xl animate-float">🚀</div>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/4TsUuQgJFy0?si=zbaz3u0FObw3Eqqs " title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>                
               </div>
             </div>
             <div className="absolute -bottom-5 -right-5 w-3/4 h-3/4 bg-neon-blue/20 rounded-lg filter blur-lg z-0"></div>

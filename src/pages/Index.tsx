@@ -7,6 +7,7 @@ import Sponsors from '@/components/Sponsors';
 import FAQ from '@/components/FAQ';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import Team from '@/components/Team';
 
 const Index = () => {
   return (
@@ -15,9 +16,10 @@ const Index = () => {
       <Hero />
       <About />
       <Tracks />
-      <Timeline />
+      {/* <Timeline /> */}
       <Sponsors />
       <FAQ />
+      {/* <Team /> */}
       <Footer />
     </div>
   );

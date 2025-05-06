@@ -33,7 +33,7 @@ const Sponsors = () => {
             OUR SPONSORS
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto font-mono">
-            Hackathon Horizon is made possible by these amazing organizations
+            Deanza Hackathon is made possible by these amazing organizations
           </p>
         </div>
         
@@ -69,7 +69,7 @@ const Sponsors = () => {
           </h3>
           <a 
             href={`mailto:${hackathonData.contact.email}?subject=Sponsorship Inquiry`} 
-            className="neon-button-purple font-cyber"
+            className="neon-button-purple font-cyber hover:neon-button-blue border-2 border-neon-blue"
           >
             BECOME A SPONSOR
           </a>
