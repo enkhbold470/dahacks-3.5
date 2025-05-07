@@ -113,7 +113,7 @@ const Navbar = () => {
                 href={hackathonData.applyLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block mx-auto w-max neon-button-pink font-cyber"
+                className="block mx-auto w-max neon-button-orange font-cyber"
               >
                 APPLY
               </a>
