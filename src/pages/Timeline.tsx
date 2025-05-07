@@ -1,8 +1,6 @@
-
-
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import Timeline from '@/components/Timeline';
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
+import Timeline from "@/components/Timeline";
 
 const TimelinePage = () => {
   return (
