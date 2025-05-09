@@ -11,12 +11,14 @@ import TeamPage from "./pages/TeamPage";
 import FAQPage from "./pages/FAQPage";
 import NotFound from "./pages/NotFound";
 import TimelinePage from "./pages/Timeline";
+import { Analytics } from "@vercel/analytics/react"
 
 const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
+    <Analytics/>
+	<TooltipProvider>
       <Toaster />
       <Sonner />
       <BrowserRouter>
