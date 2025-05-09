@@ -133,14 +133,14 @@ export const hackathonData = {
 
   team: [
     {
-      name: "Enzo",
-      role: "Lead Organizer",
-      image: "/team/enzo.png",
+      name: "Manuel",
+      role: "Director",
+      image: "/team/manuel.png",
     },
     {
-      name: "Michael",
-      role: "Tech",
-      image: "/team/michael.png",
+      name: "Enzo",
+      role: "Director",
+      image: "/team/enzo.png",
     },
     {
       name: "Caden",
@@ -149,18 +149,23 @@ export const hackathonData = {
     },
     {
       name: "Audrey",
-      role: "Marketing",
+      role: "Logistics",
       image: "/team/audrey.png",
     },
     {
-      name: "Ace_firewolf",
-      role: "Marketing",
-      image: "/team/ace_firewolf.png",
+      name: "Lakshya",
+      role: "Logistics",
+      image: "/team/lakshya.png",
     },
     {
-      name: "Fiona",
-      role: "Marketing",
-      image: "/team/fiona.png",
+      name: "Ella",
+      role: "Marketing & Logistics",
+      image: "/team/ella.png",
+    },
+    {
+      name: "Thu",
+      role: "Marketing Lead",
+      image: "/team/thu_tran.png",
     },
     {
       name: "Lin",
@@ -168,19 +173,14 @@ export const hackathonData = {
       image: "/team/lin.png",
     },
     {
-      name: "Inky",
-      role: "Tech",
-      image: "/team/inky.png",
+      name: "Tuan",
+      role: "Marketing",
+      image: "/team/daniel.png",
     },
     {
-      name: "Ben",
-      role: "Tech",
-      image: "/team/ben.png",
-    },
-    {
-      name: "Arya Somu",
-      role: "Finance",
-      image: "/team/arya_somu.png",
+      name: "Fiona",
+      role: "Marketing",
+      image: "/team/fiona.png",
     },
     {
       name: "Leyan",
@@ -189,23 +189,33 @@ export const hackathonData = {
     },
     {
       name: "Alan",
-      role: "Finance",
+      role: "Finance Lead",
       image: "/team/alan.png",
     },
     {
-      name: "Thu Tran",
-      role: "Marketing Lead",
-      image: "/team/thu_tran.png",
+      name: "Toma",
+      role: "Finance",
+      image: "/team/toma.png"
     },
     {
-      name: "Manuel",
-      role: "Lead Organizer",
-      image: "/team/manuel.png",
+      name: "Arya",
+      role: "Finance",
+      image: "/team/arya_somu.png",
     },
     {
-      name: "Ella",
-      role: "Marketing & Logistics",
-      image: "/team/ella.png",
+      name: "Inky",
+      role: "Tech Lead",
+      image: "/team/inky.png",
+    },
+    {
+      name: "Ben",
+      role: "Tech",
+      image: "/team/ben.png",
+    },
+    {
+      name: "Michael",
+      role: "Tech",
+      image: "/team/michael.png",
     },
   ],
 
