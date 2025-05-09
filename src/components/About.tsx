@@ -25,7 +25,8 @@ const About = () => {
             <div className="flex flex-wrap gap-4 mb-8">
               <div className="flex items-center">
                 <div className="mr-2 w-4 h-4 bg-neon-green rounded-full"></div>
-                <span className="text-white font-mono">24-Hour Event</span>
+                {/* event duration */}
+                <span className="text-white font-mono">TBA</span>
               </div>
               <div className="flex items-center">
                 <div className="mr-2 w-4 h-4 bg-neon-pink rounded-full"></div>
