@@ -117,7 +117,7 @@ export const hackathonData = {
     {
       name: "Give My Certificate",
       tier: "Gold",
-      logo: ""
+      logo: "https://i.postimg.cc/nzm4SNhq/th-857044941-removebg-preview.png"
     },
     {
       name: ".xyz",
