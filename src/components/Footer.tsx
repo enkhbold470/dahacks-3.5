@@ -43,7 +43,7 @@ const Footer = () => {
             <p className="text-gray-300 font-mono mb-4">
               {hackathonData.date}
               <br />
-              {hackathonData.time}
+              {/* {hackathonData.time} */} TBA
               <br />
               {hackathonData.venue}
             </p>
