@@ -114,6 +114,21 @@ export const hackathonData = {
       tier: "",
       logo: "https://balsamiq.com/assets/logo-white.svg",
     },
+    {
+      name: "Give My Certificate",
+      tier: "Gold",
+      logo: ""
+    },
+    {
+      name: ".xyz",
+      tier: "",
+      logo: ""
+    },
+    {
+      name: "Interview Cake",
+      tier: "",
+      logo: ""
+    }
   ],
 
   team: [
