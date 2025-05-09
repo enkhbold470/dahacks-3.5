@@ -34,7 +34,7 @@ const Sponsors = () => {
             OUR SPONSORS
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto font-mono">
-            Deanza Hackathon is made possible by these amazing organizations
+            DA Hacks 3.5 is made possible by these amazing organizations
           </p>
         </div>
 
