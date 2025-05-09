@@ -70,7 +70,7 @@ export const hackathonData = {
     },
     {
       question: "What are the hackathon tracks?",
-      answer: "This year's featured tracks include Education and Finance, with more themes possibly announced soon. Follow @deanzahacks on Instagram for updates."
+      answer: "Coming soon..."
     },
     {
       question: "Will there be prizes?",
@@ -78,7 +78,7 @@ export const hackathonData = {
     },
     {
       question: "How should I prepare for the event?",
-      answer: "Join our Discord server https://discord.gg/QKjafEB2z5. Research the tracks, brainstorm ideas, and get your development environment set up before the event. Also, keep an eye on @deanzahacks on Instagram for announcements."
+      answer: "Research the tracks, brainstorm ideas, and get your development environment set up before the event. Also, keep an eye on @deanzahacks on Instagram for announcements."
     },
     {
       question: "Will there be event coverage?",
