@@ -89,7 +89,7 @@ const About = () => {
               Time
             </h3>
             <p className="text-gray-300 text-center font-mono">
-              {hackathonData.time}
+              {/* {hackathonData.time} */}TBA
             </p>
           </div>
 
