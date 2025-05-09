@@ -70,7 +70,7 @@ export const hackathonData = {
     },
     {
       question: "What are the hackathon tracks?",
-      answer: "This year's featured tracks include Education and Finance, with more themes possibly announced soon. Follow @deanzahacks on Instagram for updates."
+      answer: "Coming soon..."
     },
     {
       question: "Will there be prizes?",
