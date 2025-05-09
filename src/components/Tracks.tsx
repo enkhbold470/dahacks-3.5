@@ -1,5 +1,4 @@
-
-import hackathonData from '@/data/data';
+// import hackathonData from "@/data/data";
 
 const Tracks = () => {
   return (
@@ -10,12 +9,16 @@ const Tracks = () => {
             HACKATHON TRACKS
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto font-mono">
-            Choose your challenge and build something amazing in one of our two tracks! Prizes are for everyone, regardless of whether you choose a track.
+            Choose your challenge and build something amazing in one of our two
+            tracks! Prizes are for everyone, regardless of whether you choose a
+            track.
           </p>
         </div>
-        
-        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          {hackathonData.tracks.map((track, index) => (
+        <p className="text-lg text-gray-300 max-w-2xl mx-auto font-mono text-center">
+          Coming soon...
+        </p>
+        {/* <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        { hackathonData.tracks.map((track, index) => (
             <div 
               key={index}
               className="relative overflow-hidden rounded-lg border border-neon-pink/30 bg-cyber-darker/50 p-6 hover:border-neon-pink transition-all duration-300 group"
@@ -30,8 +33,8 @@ const Tracks = () => {
               
               <div className="absolute -bottom-20 -right-20 w-40 h-40 bg-neon-pink/10 rounded-full blur-3xl group-hover:bg-neon-pink/20 transition-all duration-500"></div>
             </div>
-          ))}
-        </div>
+          )) }
+        </div> */}
       </div>
     </section>
   );
