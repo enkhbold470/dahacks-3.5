@@ -111,7 +111,7 @@ const Footer = () => {
 
         <div className="mt-12 pt-8 border-t border-neon-green/20 text-center">
           <p className="text-gray-400 font-mono text-sm">
-            &copy; {new Date().getFullYear()} Deanza Hackathon. All rights
+            &copy; {new Date().getFullYear()} DA Hacks 3.5. All rights
             reserved.{" "}
             <Link
               to="https://github.com/da-hacks/legal/blob/main/privacy.md"
