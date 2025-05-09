@@ -78,7 +78,7 @@ export const hackathonData = {
     },
     {
       question: "How should I prepare for the event?",
-      answer: "Join our Discord server https://discord.gg/QKjafEB2z5. Research the tracks, brainstorm ideas, and get your development environment set up before the event. Also, keep an eye on @deanzahacks on Instagram for announcements."
+      answer: "Research the tracks, brainstorm ideas, and get your development environment set up before the event. Also, keep an eye on @deanzahacks on Instagram for announcements."
     },
     {
       question: "Will there be event coverage?",
