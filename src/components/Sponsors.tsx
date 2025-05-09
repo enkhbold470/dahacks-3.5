@@ -15,6 +15,7 @@ const Sponsors = () => {
     Gold: { gridCols: 2, size: "h-24", color: "neon-text-yellow" },
     Silver: { gridCols: 3, size: "h-20", color: "neon-text" },
     Bronze: { gridCols: 4, size: "h-16", color: "neon-text-pink" },
+    Independent: { gridCols: 5, size: "h-12", color: "" }
   };
 
   const PlaceholderLogo = ({ name }: { name: string }) => (
@@ -41,12 +42,11 @@ const Sponsors = () => {
           ([tier, config]) =>
             sponsorsByTier[tier] && (
               <div key={tier} className="mb-16">
-                <h3
+                {tier !== "Independent" && <h3
                   className={`text-2xl font-cyber font-bold mb-6 text-center ${config.color}`}
                 >
                   {tier} Sponsors
-                </h3>
-
+                </h3>}
                 <div
                   className={`grid grid-cols-1 md:grid-cols-${config.gridCols} gap-8`}
                 >
