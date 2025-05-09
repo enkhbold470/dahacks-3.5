@@ -110,41 +110,10 @@ export const hackathonData = {
 
   sponsors: [
     {
-      name: "DASG",
-      tier: "GOLD",
-      logo: "https://www.deanza.edu/dasg/images/dasg-logo/dasg-logo-abreviation.png",
+      name: "Balsamiq",
+      tier: "",
+      logo: "https://balsamiq.com/assets/logo-white.svg",
     },
-    {
-      name: "OpenAI",
-      tier: "SILVER",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
-    },
-    {
-      name: "MORE COMING UP SOON",
-      tier: "BRONZE",
-      logo: "/",
-    },
-
-    //   {
-    //     name: "DevStream",
-    //     tier: "Gold",
-    //     logo: "/sponsors/devstream.png"
-    //   },
-    //   {
-    //     name: "ByteWorks",
-    //     tier: "Silver",
-    //     logo: "/sponsors/byteworks.png"
-    //   },
-    //   {
-    //     name: "CodeNation",
-    //     tier: "Silver",
-    //     logo: "/sponsors/codenation.png"
-    //   },
-    //   {
-    //     name: "DigitalFuture",
-    //     tier: "Bronze",
-    //     logo: "/sponsors/digitalfuture.png"
-    //   }
   ],
 
   team: [
