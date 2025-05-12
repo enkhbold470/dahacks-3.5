@@ -244,22 +244,22 @@ export interface LinkGroup {
 }
 
 export const resourceLinks: LinkGroup[] = [
-  {
-    title: "Internal Resources",
-    links: [
-      { name: "Portal: Hackathon Dashboard", href: "#" },
-      { name: "Website: Da Hacks 3.5", href: "#" },
-      { name: "Team Meet: Hackathon Team Creator", href: "#" },
-      { name: "Judging: Hackathon Judging", href: "#" },
-    ],
-  },
+  // {
+  //   title: "Internal Resources",
+  //   links: [
+  //     { name: "Portal: Hackathon Dashboard", href: "#" },
+  //     { name: "Website: Da Hacks 3.5", href: "#" },
+  //     { name: "Team Meet: Hackathon Team Creator", href: "#" },
+  //     { name: "Judging: Hackathon Judging", href: "#" },
+  //   ],
+  // },
   {
     title: "Public Resources",
     links: [
       { name: "Main Website", href: "https://deanzahacks.com" },
-      { name: "Judging Platform", href: "https://judge.deanzahacks.com" },
+      // { name: "Judging Platform", href: "https://judge.deanzahacks.com" },
       { name: "Participant Portal", href: "https://portal.deanzahacks.com" },
-      { name: "Admin Dashboard", href: "https://admin.deanzahacks.com" },
+      // { name: "Admin Dashboard", href: "https://admin.deanzahacks.com" },
     ],
   },
   {
