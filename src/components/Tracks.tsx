@@ -9,9 +9,8 @@ const Tracks = () => {
             HACKATHON TRACKS
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto font-mono">
-            Choose your challenge and build something amazing in one of our two
-            tracks! Prizes are for everyone, regardless of whether you choose a
-            track.
+            Tracks are not required-any project can win for top prizes! Track
+            entries are eligible for track-specific prizes.
           </p>
         </div>
         <p className="text-lg text-gray-300 max-w-2xl mx-auto font-mono text-center">
