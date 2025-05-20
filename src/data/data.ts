@@ -10,7 +10,7 @@ export const hackathonData = {
     "https://docs.google.com/document/d/1nPCcuwV26MNHjhbXRchJRCsknjEcwmzjXn4xmu1o5i4",
 
   description:
-    "DAHacks 3.5 is a one-day coding marathon where innovators come together to solve real-world problems and build impactful solutions. Join us for a day of creativity, collaboration, and code!",
+    "DAHacks 3.5 is a one-day coding marathon focused on innovative and creative projects. All skill levels are welcome, and any project can win top prizes. Tracks/themes are optional, and you can submit any innovative, cutting-edge, creative projects. Join us for a chance to win!",
 
   tracks: [
     {
@@ -28,34 +28,21 @@ export const hackathonData = {
   ],
 
   timeline: [
-    { time: "7:00 AM", event: "Check-in opens" },
-    { time: "8:00 AM", event: "Breakfast" },
-    {
-      time: "8:30 AM",
-      event: "Opening Ceremony, Wi-Fi password, Hacker's Guide, Mentors Lounge",
-    },
-    { time: "9:00 AM", event: "Hacking starts, Happy Hours" },
-    {
-      time: "10:30 AM",
-      event: "Hackathon 101 / GitHub / Devpost Workshop (30 mins)",
-    },
-    { time: "11:30 AM", event: "Vibe Coding 101 (30 mins)" },
-    { time: "12:00 PM", event: "Lunch (good pizza) 🍕" },
-    { time: "1:00 PM", event: "LeetCode Interview Prep 101" },
-    { time: "2:00 PM", event: "Lettuce Eating Challenge 🥬" },
-    { time: "3:00 PM", event: "Figma Workshop 101" },
-    { time: "5:00 PM", event: "Pitching 101" },
-    { time: "6:00 PM", event: "Dinner" },
-    { time: "7:00 PM", event: "Hacking ends" },
-    { time: "7:20 PM", event: "Devpost Submission Deadline" },
-    { time: "7:30 PM", event: "Judging starts" },
-    { time: "9:00 PM", event: "Closing Ceremony" },
-    { time: "9:05 PM", event: "Winner Announcement 🏆" },
-    { time: "9:15 PM", event: "Raffle Winner 🎁" },
-    { time: "9:20 PM", event: "Group Photo 📸" },
-    { time: "9:30 PM", event: "Cleaning" },
-    { time: "10:00 PM", event: "Organizers After-party (boba btw) 🧋" },
+    { name: "Registration Time (QR Code)", date: "2025-05-30", startTime: "08:00 AM", endTime: "08:45 AM", description: "Participants check-in" },
+    { name: "Opening Ceremony (Welcome & Briefing)", date: "2025-05-30", startTime: "08:45 AM", endTime: "09:00 AM", description: "Kickoff announcements" },
+    { name: "Hacking Starts / Breakfast", date: "2025-05-30", startTime: "09:00 AM", endTime: "10:00 AM", description: "Start hacking and breakfast available" },
+    { name: "Workshop #1 - Hackathon 101 by Inky", date: "2025-05-30", startTime: "10:00 AM", endTime: "10:30 AM", description: "Beginner workshop on hackathon basics" },
+    { name: "Meal Time", date: "2025-05-30", startTime: "12:00 PM", endTime: "12:30 PM", description: "Mass order meal time (coordinate with Costco)" },
+    { name: "Workshop #2 - Jumpstart Your Hackathon Project w/ Java", date: "2025-05-30", startTime: "12:30 PM", endTime: "01:30 PM", description: "Beginner workshop by Dev Guild" },
+    { name: "Workshop #3 - Algorithms & Data Structures by CPC", date: "2025-05-30", startTime: "02:30 PM", endTime: "03:10 PM", description: "Intermediate workshop" },
+    { name: "Hacking Ends", date: "2025-05-30", startTime: "06:00 PM", endTime: "06:30 PM", description: "Final submission deadline" },
+    { name: "Judging Session", date: "2025-05-30", startTime: "06:30 PM", endTime: "07:30 PM", description: "Judging begins" },
+    { name: "Finalist Presentation", date: "2025-05-30", startTime: "07:30 PM", endTime: "08:00 PM", description: "Top 3 projects, 5 minutes each" },
+    { name: "Closing Ceremony & Prize Giving", date: "2025-05-30", startTime: "08:00 PM", endTime: "08:15 PM", description: "Awards and acknowledgments" },
+    { name: "Clean Up", date: "2025-05-30", startTime: "08:15 PM", endTime: "09:00 PM", description: "Volunteers and staff wrap-up" },
+    { name: "End", date: "2025-05-30", startTime: "09:00 PM", endTime: "09:15 PM", description: "Event officially ends" }
   ],
+
 
   faq: [
     {
@@ -268,6 +255,7 @@ export const resourceLinks: LinkGroup[] = [
       { name: "DAHACKS V2.0", href: "https://dahacks25.devpost.com" },
       { name: "DAHACKS V2.5", href: "https://dahacks25.devpost.com" },
       { name: "DAHACKS V3.0", href: "https://dahacks3.devpost.com" },
+      { name: "DAHACKS V3.5", href: "https://dahacks3-5.devpost.com" },
     ],
   },
   {

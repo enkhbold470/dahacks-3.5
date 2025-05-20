@@ -13,21 +13,19 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           <div className="order-2 md:order-1">
             <p className="text-lg text-gray-300 mb-6 font-mono leading-relaxed">
-              {hackathonData.description}
+
             </p>
             <p className="text-lg text-gray-300 mb-6 font-mono leading-relaxed">
               Join us for an unforgettable day of innovation, collaboration, and
               skill-building. Whether you're a seasoned developer or just
-              starting out, De Anza Hacks offers a supportive environment to
-              challenge yourself, meet like-minded individuals, and create
-              something amazing.
+              starting out, De Anza Hacks for everyone, all skill levels, and all majors.
             </p>
             <div className="flex flex-wrap gap-4 mb-8">
               {/* event duration */}
-              {/* <div className="flex items-center">
+              <div className="flex items-center">
                     <div className="mr-2 w-4 h-4 bg-neon-green rounded-full"></div> 
-                    <span className="text-white font-mono">TBA</span>
-              </div> */}
+                    <span className="text-white font-mono">{hackathonData.time}</span>
+              </div>
               <div className="flex items-center">
                 <div className="mr-2 w-4 h-4 bg-neon-pink rounded-full"></div>
                 <span className="text-white font-mono">Exciting Prizes</span>
@@ -90,7 +88,7 @@ const About = () => {
               Time
             </h3>
             <p className="text-gray-300 text-center font-mono">
-              {/* {hackathonData.time} */}TBA
+              {hackathonData.time}
             </p>
           </div>
 
