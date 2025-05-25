@@ -1,3 +1,4 @@
+import { hackathonData } from "@/data/data";
 import { useState } from "react";
 
 const Timeline = () => {
@@ -8,14 +9,14 @@ const Timeline = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-cyber font-bold mb-4 neon-text-cyan animate-glow">
-            {/* 🛠️ HACKATHON TIMELINE */} 🕓 Coming soon...
+            🛠️ HACKATHON TIMELINE 
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto font-mono">
             Here's what to expect during our action-packed hackathon day!
           </p>
         </div>
 
-        {/* <div className="relative max-w-4xl mx-auto">
+        <div className="relative max-w-4xl mx-auto">
  
           <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-neon-green/30"></div>
 
@@ -46,10 +47,10 @@ const Timeline = () => {
                   }`}
                 >
                   <span className="font-mono font-bold text-neon-green">
-                    {item.time}
+                    {item.startTime} - {item.endTime}
                   </span>
                   <h3 className="text-lg font-cyber font-semibold text-white mt-1">
-                    {item.event}
+                    {item.name}
                   </h3>
                 </div>
               </div>
@@ -57,7 +58,7 @@ const Timeline = () => {
               <div className="w-5/12"></div>
             </div>
           ))}
-        </div> */}
+        </div>
       </div>
     </section>
   );
