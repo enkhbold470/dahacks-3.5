@@ -6,10 +6,12 @@ const Team = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-cyber font-bold mb-4 neon-text-cyan animate-glow">
-            MEET THE TEAM
+            Meet the team
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto font-mono">
-            The dedicated individuals who make Deanza Hackathon possible
+            The dedicated individuals who made this hackathon possible
+            <br />
+            <span className="text-neon-purple uppercase"> for students, by students</span>
           </p>
         </div>
 
