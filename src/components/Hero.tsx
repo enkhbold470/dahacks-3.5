@@ -106,6 +106,14 @@ const Hero = () => {
             >
               HACKER GUIDE
             </a>
+            <a
+              href="https://match.deanzahacks.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="neon-button-pink  font-cyber text-lg"
+            >
+              FIND A TEAM
+            </a>
           </div>
 
           <div className="mt-12 animate-bounce">
