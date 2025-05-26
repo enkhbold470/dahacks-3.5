@@ -1,6 +1,7 @@
 import AboutPage from "./pages/AboutPage";
 import FAQPage from "./pages/FAQPage";
 import Index from "./pages/Index";
+import NotFound from "./pages/NotFound";
 import SponsorsPage from "./pages/SponsorsPage";
 import TeamPage from "./pages/TeamPage";
 import TimelinePage from "./pages/Timeline";
@@ -32,6 +33,10 @@ const routes: RouteObject[] = [
   {
     path: "timeline",
     element: (<TimelinePage />) as ReactNode,
+  },
+  {
+    path: "*",
+    element: (<NotFound />) as ReactNode,
   },
 ];
 
