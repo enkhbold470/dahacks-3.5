@@ -96,7 +96,7 @@ const Hero = () => {
               rel="noopener noreferrer"
               className="neon-button-orange font-cyber text-lg"
             >
-              APPLY NOW
+              CHECK DECISION
             </a>
             <a
               href={hackathonData.guideLink}
