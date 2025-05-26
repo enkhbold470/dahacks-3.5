@@ -7,7 +7,7 @@ export const hackathonData = {
   logo: "/logo.png",
   applyLink: "https://portal.deanzahacks.com",
   guideLink:
-    "https://docs.google.com/document/d/1nPCcuwV26MNHjhbXRchJRCsknjEcwmzjXn4xmu1o5i4",
+    "https://docs.google.com/document/d/e/2PACX-1vRLvQ9lL8Tskw6zl8nANJvjYWHKxegnShuCmpNeAkAR-C_hQbrpEoYwtNbCgwGg7FxxFzpd5ynBHh7U/pub",
 
   description:
     "DAHacks 3.5 is a one-day coding marathon focused on innovative and creative projects. All skill levels are welcome, and any project can win top prizes. Tracks/themes are optional, and you can submit any innovative, cutting-edge, creative projects. Join us for a chance to win!",
