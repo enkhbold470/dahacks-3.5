@@ -50,14 +50,6 @@ const Navbar = () => {
                   {link.name}
                 </Link>
               ))}
-              <a
-                href={hackathonData.applyLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="neon-button-orange font-cyber"
-              >
-                APPLY
-              </a>
             </div>
           </div>
 
