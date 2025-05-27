@@ -28,21 +28,98 @@ export const hackathonData = {
   ],
 
   timeline: [
-    { name: "Registration Time (QR Code)", date: "2025-05-30", startTime: "08:00 AM", endTime: "08:45 AM", description: "Participants check-in" },
-    { name: "Opening Ceremony (Welcome & Briefing)", date: "2025-05-30", startTime: "08:45 AM", endTime: "09:00 AM", description: "Kickoff announcements" },
-    { name: "Hacking Starts / Breakfast", date: "2025-05-30", startTime: "09:00 AM", endTime: "10:00 AM", description: "Start hacking and breakfast available" },
-    { name: "Workshop #1 - Hackathon 101 by Inky", date: "2025-05-30", startTime: "10:00 AM", endTime: "10:30 AM", description: "Beginner workshop on hackathon basics" },
-    { name: "Meal Time", date: "2025-05-30", startTime: "12:00 PM", endTime: "12:30 PM", description: "Mass order meal time (coordinate with Costco)" },
-    { name: "Workshop #2 - Jumpstart Your Hackathon Project w/ Java", date: "2025-05-30", startTime: "12:30 PM", endTime: "01:30 PM", description: "Beginner workshop by Dev Guild" },
-    { name: "Workshop #3 - Algorithms & Data Structures by CPC", date: "2025-05-30", startTime: "02:30 PM", endTime: "03:10 PM", description: "Intermediate workshop" },
-    { name: "Hacking Ends", date: "2025-05-30", startTime: "06:00 PM", endTime: "06:30 PM", description: "Final submission deadline" },
-    { name: "Judging Session", date: "2025-05-30", startTime: "06:30 PM", endTime: "07:30 PM", description: "Judging begins" },
-    { name: "Finalist Presentation", date: "2025-05-30", startTime: "07:30 PM", endTime: "08:00 PM", description: "Top 3 projects, 5 minutes each" },
-    { name: "Closing Ceremony & Prize Giving", date: "2025-05-30", startTime: "08:00 PM", endTime: "08:15 PM", description: "Awards and acknowledgments" },
-    { name: "Clean Up", date: "2025-05-30", startTime: "08:15 PM", endTime: "09:00 PM", description: "Volunteers and staff wrap-up" },
-    { name: "End", date: "2025-05-30", startTime: "09:00 PM", endTime: "09:15 PM", description: "Event officially ends" }
+    {
+      name: "Registration Time (QR Code)",
+      date: "2025-05-30",
+      startTime: "08:00 AM",
+      endTime: "08:45 AM",
+      description: "Participants check-in",
+    },
+    {
+      name: "Opening Ceremony (Welcome & Briefing)",
+      date: "2025-05-30",
+      startTime: "08:45 AM",
+      endTime: "09:00 AM",
+      description: "Kickoff announcements",
+    },
+    {
+      name: "Hacking Starts / Breakfast",
+      date: "2025-05-30",
+      startTime: "09:00 AM",
+      endTime: "10:00 AM",
+      description: "Start hacking and breakfast available",
+    },
+    {
+      name: "Workshop #1 - Hackathon 101 by Inky",
+      date: "2025-05-30",
+      startTime: "10:00 AM",
+      endTime: "10:30 AM",
+      description: "Beginner workshop on hackathon basics",
+    },
+    {
+      name: "Meal Time",
+      date: "2025-05-30",
+      startTime: "12:00 PM",
+      endTime: "12:30 PM",
+      description: "Mass order meal time (coordinate with Costco)",
+    },
+    {
+      name: "Workshop #2 - Jumpstart Your Hackathon Project w/ Java",
+      date: "2025-05-30",
+      startTime: "12:30 PM",
+      endTime: "01:30 PM",
+      description: "Beginner workshop by Dev Guild",
+    },
+    {
+      name: "Workshop #3 - Algorithms & Data Structures by CPC",
+      date: "2025-05-30",
+      startTime: "02:30 PM",
+      endTime: "03:10 PM",
+      description: "Intermediate workshop",
+    },
+    {
+      name: "Hacking Ends",
+      date: "2025-05-30",
+      startTime: "06:00 PM",
+      endTime: "06:30 PM",
+      description: "Final submission deadline",
+    },
+    {
+      name: "Judging Session",
+      date: "2025-05-30",
+      startTime: "06:30 PM",
+      endTime: "07:30 PM",
+      description: "Judging begins",
+    },
+    {
+      name: "Finalist Presentation",
+      date: "2025-05-30",
+      startTime: "07:30 PM",
+      endTime: "08:00 PM",
+      description: "Top 3 projects, 5 minutes each",
+    },
+    {
+      name: "Closing Ceremony & Prize Giving",
+      date: "2025-05-30",
+      startTime: "08:00 PM",
+      endTime: "08:15 PM",
+      description: "Awards and acknowledgments",
+    },
+    {
+      name: "Clean Up",
+      date: "2025-05-30",
+      startTime: "08:15 PM",
+      endTime: "09:00 PM",
+      description: "Volunteers and staff wrap-up",
+    },
+    {
+      name: "End",
+      date: "2025-05-30",
+      startTime: "09:00 PM",
+      endTime: "09:15 PM",
+      description: "Event officially ends",
+    },
   ],
-
 
   faq: [
     {
@@ -103,19 +180,24 @@ export const hackathonData = {
     },
     {
       name: "Give My Certificate",
-      tier: "Gold",
-      logo: "https://i.postimg.cc/nzm4SNhq/th-857044941-removebg-preview.png"
+      tier: "Independent",
+      logo: "https://i.postimg.cc/nzm4SNhq/th-857044941-removebg-preview.png",
     },
     {
       name: ".xyz",
       tier: "Independent",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/.xyz_logo.svg/1920px-.xyz_logo.svg.png"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/.xyz_logo.svg/1920px-.xyz_logo.svg.png",
     },
     {
       name: "Interview Cake",
       tier: "Independent",
-      logo: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F2023.hawkhacks.com%2Finterviewcake-logo.png&f=1&nofb=1&ipt=0d53817dc273fcc51fc1b99cb4cad9625037832864cf665305f31534ab4dbd40"
-    }
+      logo: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F2023.hawkhacks.com%2Finterviewcake-logo.png&f=1&nofb=1&ipt=0d53817dc273fcc51fc1b99cb4cad9625037832864cf665305f31534ab4dbd40",
+    },
+    {
+      name: "Red Bull",
+      tier: "Independent",
+      logo: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/RedBullEnergyDrink.svg/1024px-RedBullEnergyDrink.svg.png",
+    },
   ],
 
   team: [
@@ -182,7 +264,7 @@ export const hackathonData = {
     {
       name: "Toma",
       role: "Finance",
-      image: "/team/toma.png"
+      image: "/team/toma.png",
     },
     {
       name: "Arya",
