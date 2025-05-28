@@ -31,7 +31,7 @@ const Sponsors = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-cyber font-bold mb-4 neon-text-blue animate-glow">
-            OUR SPONSORS
+            SPONSORS AND SUPPORTERS
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto font-mono">
             DA Hacks 3.5 is made possible by these amazing organizations
