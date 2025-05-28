@@ -196,7 +196,6 @@ export const hackathonData = {
     {
       name: "Red Bull",
       tier: "Independent",
-      logo: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/RedBullEnergyDrink.svg/1024px-RedBullEnergyDrink.svg.png",
     },
   ],
 
