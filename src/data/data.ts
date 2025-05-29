@@ -125,7 +125,7 @@ export const hackathonData = {
     {
       question: "Who can participate?",
       answer:
-        "DAHacks 3.5 is open to current high school and college students of all skill levels. A valid student ID is required for check-in at the event.",
+        "DAHacks 3.5 is open to current De Anza College students of all skill levels. A valid student ID is required for check-in at the event.",
     },
     {
       question: "How much does it cost to participate?",
