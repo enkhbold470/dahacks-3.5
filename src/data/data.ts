@@ -129,8 +129,7 @@ export const hackathonData = {
     },
     {
       question: "How much does it cost to participate?",
-      answer:
-        "It's completely free! DAHacks 3.5 covers meals and snacks.",
+      answer: "It's completely free! DAHacks 3.5 covers meals and snacks.",
     },
     {
       question: "Do I need to bring anything?",
@@ -168,7 +167,8 @@ export const hackathonData = {
     },
     {
       question: "What's the event timeline?",
-      answer: "View the timeline at https://live.deanzahacks.com, https://deanzahacks.com/timeline, or https://www.instagram.com/p/DKK7wj4TAIt!",
+      answer:
+        "View the timeline at https://live.deanzahacks.com, https://deanzahacks.com/timeline, or https://www.instagram.com/p/DKK7wj4TAIt!",
     },
   ],
 
@@ -203,87 +203,87 @@ export const hackathonData = {
     {
       name: "Manuel",
       role: "Director",
-      image: "/public/team/manuel.png",
+      image: "/team/manuel.png",
     },
     {
       name: "Enzo",
       role: "Director",
-      image: "/public/team/enzo.png",
+      image: "/team/enzo.png",
     },
     {
       name: "Caden",
       role: "Logistics Lead",
-      image: "/public/team/caden.png",
+      image: "/team/caden.png",
     },
     {
       name: "Audrey",
       role: "Logistics",
-      image: "/public/team/audrey.png",
+      image: "/team/audrey.png",
     },
     {
       name: "Lakshya",
       role: "Logistics",
-      image: "/public/team/lakshya.png",
+      image: "/team/lakshya.png",
     },
     {
       name: "Ella",
       role: "Marketing & Logistics",
-      image: "/public/team/ella.png",
+      image: "/team/ella.png",
     },
     {
       name: "Thu",
       role: "Marketing Lead",
-      image: "/public/team/thu_tran.png",
+      image: "/team/thu_tran.png",
     },
     {
       name: "Lin",
       role: "Marketing",
-      image: "/public/team/lin.png",
+      image: "/team/lin.png",
     },
     {
       name: "Tuan",
       role: "Marketing",
-      image: "/public/team/daniel.png",
+      image: "/team/daniel.png",
     },
     {
       name: "Fiona",
       role: "Marketing",
-      image: "/public/team/fiona.png",
+      image: "/team/fiona.png",
     },
     {
       name: "Leyan",
       role: "Marketing",
-      image: "/public/team/leyan.png",
+      image: "/team/leyan.png",
     },
     {
       name: "Alan",
       role: "Finance Lead",
-      image: "/public/team/alan.png",
+      image: "/team/alan.png",
     },
     {
       name: "Toma",
       role: "Finance",
-      image: "/public/team/toma.png",
+      image: "/team/toma.png",
     },
     {
       name: "Arya",
       role: "Finance",
-      image: "/public/team/arya_somu.png",
+      image: "/team/arya_somu.png",
     },
     {
       name: "Inky",
       role: "Tech Lead",
-      image: "/public/team/inky.png",
+      image: "/team/inky.png",
     },
     {
       name: "Ben",
       role: "Tech",
-      image: "/public/team/ben.png",
+      image: "/team/ben.png",
     },
     {
       name: "Michael",
       role: "Tech",
-      image: "/public/team/michael.png",
+      image: "/team/michael.png",
     },
   ],
 
