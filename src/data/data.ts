@@ -2,7 +2,7 @@ export const hackathonData = {
   name: "DAHacks 3.5",
   shortName: "DAHacks 3.5",
   date: "May 30th, 2025",
-  time: "7:00 AM - 8:30 PM",
+  time: "8:00 AM - 8:30 PM",
   venue: "Conference Room A&B, De Anza College, Cupertino, CA 95014",
   logo: "/logo.png",
   applyLink: "https://portal.deanzahacks.com",
