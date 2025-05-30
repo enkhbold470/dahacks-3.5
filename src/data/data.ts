@@ -168,7 +168,7 @@ export const hackathonData = {
     },
     {
       question: "What's the event timeline?",
-      answer: "A more detailed schedule will be released soon!",
+      answer: "View the timeline at https://live.deanzahacks.com, https://deanzahacks.com/timeline, or https://www.instagram.com/p/DKK7wj4TAIt!",
     },
   ],
 
