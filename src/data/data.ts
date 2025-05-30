@@ -130,7 +130,7 @@ export const hackathonData = {
     {
       question: "How much does it cost to participate?",
       answer:
-        "It's completely free! DAHacks 3.5 covers meals, snacks, and all necessary resources. Just bring your energy and creativity!",
+        "It's completely free! DAHacks 3.5 covers meals and snacks.",
     },
     {
       question: "Do I need to bring anything?",
@@ -154,7 +154,7 @@ export const hackathonData = {
     {
       question: "Will there be prizes?",
       answer:
-        "Yes! Top projects in each track will receive prizes, and there may be special awards too. Projects outside of our tracks also have a chance to win prizes! Stay tuned for the official prize list.",
+        "Yes! The top 3 projects will receive prizes. Stay tuned for the official prize list.",
     },
     {
       question: "How should I prepare for the event?",
@@ -164,7 +164,7 @@ export const hackathonData = {
     {
       question: "Will there be event coverage?",
       answer:
-        "Yes, a professional photographer will be at the event to capture photos and videos. Be ready to shine!",
+        "Yes, a photographer will be at the event to capture photos and videos. Be ready to shine!",
     },
     {
       question: "What's the event timeline?",
